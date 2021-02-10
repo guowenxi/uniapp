@@ -1,0 +1,117 @@
+<template>
+	<view class="inner-box">
+		<view class="inner-box-title">
+			<text class="inner-box-title-text">
+				成功
+			</text>
+			<image @click="handleClick" class="inner-box-icon" src="/static/new/btn_close@2x.png"/>
+		</view>
+		<view class="inner-box-mian">
+			<view class="inner-box-main-item">
+				<view class="wrap-main-box">
+					<image @click="handleClick" class="middle-img" src="/static/new/sccuess.png"/>
+				</view>
+				
+				<view class="wrap-main-box-text">
+					<text class="inner-box-main-item-text-left" >您可以在</text>
+					<text class="inner-box-main-item-text-red" @click="navTo('/pages/roadblock/roadblock')">已领取</text>
+					<text class="inner-box-main-item-text" >中查看所有任务</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title:"",
+				time:"",
+			};
+		},
+		onLoad(){
+			
+		}, 
+	   methods: {
+		   navTo(){
+			   uni.getSubNVueById('popup').hide('auto',0);
+			   uni.getSubNVueById('lingquBox').hide('auto',0);
+			   
+
+			   setTimeout(()=>{
+
+				 uni.navigateBack({
+				     delta: 1
+				 });
+			   },100)
+
+		   },
+		 handleClick(e, id) {
+			 this.navTo();
+		 },
+		 }
+	}
+</script>
+
+<style lang="scss">
+.inner-box{
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	border-radius: 10px;
+	
+}
+.inner-box-title{
+	background-color: #efefef;
+	width:300px;
+	flex-direction:row;
+	 justify-content:space-between;
+	 border-bottom-color:#EEEEEE;
+	 border-bottom-width:1px;
+}
+.inner-box-title-text{
+	line-height: 30upx;
+}
+
+.inner-box-icon{
+	margin-top: 15upx;
+	margin-right:10px;
+	width:60upx;
+	height:60upx;
+}
+.wrap-main-box{
+	margin-top: 10px;
+	width:300px;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.inner-box-main-item-text-left{
+	margin-left: 20px;
+	margin-top: 10px;
+	line-height: 40upx;
+	
+}
+.middle-img{
+	justify-content:center;
+	width:100px;
+	height:100px;
+}
+.wrap-main-box-text{
+	width:300px;
+	flex-direction:row;
+}
+.inner-box-main-item-text{
+	margin-top: 10px;
+	line-height: 40upx;
+}
+.inner-box-main-item-text-red{
+	margin-top: 10px;
+text-decoration:underline ;
+	line-height: 40upx;
+	color:#E32417;
+}
+</style>

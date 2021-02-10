@@ -1,0 +1,1369 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					// "subNVues": [{
+					// 	"id": "index_popup", // 唯一标识  
+					// 	"path": "pages/index/subNVue/popup", // 页面路径  
+					// 	// "type":"popup",
+					// 	"style": {
+					// 		"position": "absolute",
+					// 		"dock": "bottom",
+					// 		"width": "100%",
+					// 		"height": "100%",
+					// 		"background": "rgba(0,0,0,0.5)"
+					// 	}
+					// }, { //弹出层
+					// 	"id": "index_innerBox",
+					// 	"path": "pages/index/subNVue/innerBox",
+					// 	"style": {
+					// 		"position": "popup",
+					// 		"margin": "auto",						
+					// 		"width": "300px",
+					// 		"height": "200px"
+					// 		// "background": "rgba(0,0,0,0)"
+					// 	}
+					// }],
+					"bounce": "none",
+					"titleNView": false
+				}
+
+			}
+
+			// 	"style": {
+			// 		"navigationBarTitleText": "首页",
+			// 		"app-plus": {
+			// 			"bounce":"none",
+			// 			"titleNView": {
+			// 				"buttons": [
+			// 					{
+			// 						"width":"45px",
+			// 						"fontSrc": "/static/yticon.ttf",
+			// 						"text": "\ue744",
+			// 						"fontSize": "27",
+			// 						"color": "#fff",
+			// 						"background": "rgba(0,0,0,0)",
+			// 						"redDot": false
+			// 					}
+			// 				]
+			// 			}
+			// 		}
+			// 	}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": "false",
+						"buttons": [{
+							"width": "45px",
+							// "fontSrc": "/static/yticon.ttf",
+							"text": "注册",
+							"fontSize": "16",
+							"color": "#e32417",
+							"background": "rgba(0,0,0,0)",
+							"redDot": false
+						}]
+					},
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/sysMisson/sysMisson",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "消息提醒"
+			}
+		}, {
+			"path": "pages/sysDetail/sysDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "系统公告"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/reg_page/reg_page",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "隐私政策"
+			}
+		}, {
+			"path": "pages/rereg/rereg",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "重设密码"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					// "titleNView": false,
+					"bounce": "none"
+					
+				}
+
+			}
+		}, {
+			"path": "pages/attentionMisson/attentionMisson",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+		{
+			"path": "pages/_new_myScreening/_new_myScreening",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+
+				},
+				"navigationBarTitleText": "我的排查"
+			}
+		},
+		{
+			"path": "pages/myMisson/myMisson",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "我的巡防"
+			}
+		},
+		{
+			"path": "pages/screeningDetail/screeningDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "排查详情"
+			}
+		},
+		{
+			"path": "pages/_new_screeningDetail/_new_screeningDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "平安商城"
+			}
+		},
+		{
+			"path": "pages/missonListPA/missonListPA",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"fontSize": "20px",
+							"borderRadius": "6px", //输入框圆角
+							"placeholder": "请输入搜索内容"
+						}
+					}
+				},
+				"navigationBarTitleText": "平安任务"
+			}
+		},
+		{
+			"path": "pages/areaMissonDetail/areaMissonDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/missonListXF/missonListXF",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"width": "45px",
+							"fontSrc": "/static/font/iconfont.ttf",
+							"text": "地图模式 \ue613",
+							"fontSize": "16",
+							"color": "#7a7e83",
+							"width": "90px",
+							"background": "rgba(0,0,0,0)",
+							"float": "right"
+						}]
+					}
+				},
+				"navigationBarTitleText": "平安巡防"
+			}
+		},
+		{
+			"path": "pages/personMissonDetail/personMissonDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "任务详情"
+			}
+		}, {
+			"path": "pages/success_shiming/success_shiming",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "实名认证"
+			}
+		}, {
+			"path": "pages/success_lingqu/success_lingqu",
+			"style": {
+				"navigationBarTitleText": "领取成功",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": "false"
+					},
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/personMissonDetailBegin/personMissonDetailBegin",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/troubleReport/troubleReport",
+			"style": {
+				"backgroundColor": "#eee",
+				"navigationBarTitleText": "隐患上报",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/_new_troubleReport/_new_troubleReport",
+			"style": {
+				"backgroundColor": "#eee",
+				"navigationBarTitleText": "微上报",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/troubleReportChange/troubleReportChange",
+			"style": {
+				"backgroundColor": "#eee",
+				"navigationBarTitleText": "隐患详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/teachPA/teachPA",
+			"style": {
+				"backgroundColor": "#eee",
+				"navigationBarTitleText": "平安学习",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							
+							"text": "答题规则",
+							"fontSize": "14",
+							"color": "#333",
+							"width": "80px",
+							"background": "rgba(0,0,0,0)",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/conversionPhone/conversionPhone",
+			"style": {
+				"navigationBarTitleText": "兑换话费",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/conversionCommodity/conversionCommodity",
+			"style": {
+				"navigationBarTitleText": "兑换商品",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/conversionList/conversionList",
+			"style": {
+				"navigationBarTitleText": "兑换次数",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/messageDetail/messageDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/messageList/messageList",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"width": "45px",
+							"type": "menu",
+							// "fontSrc": "/static/yticon.ttf",
+							// "text": "\ue60f",
+							"fontSize": "24",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)",
+							"float": "right"
+							// "select": "true"
+						}]
+					}
+				},
+				"navigationBarTitleText": "消息名字"
+			}
+		}, {
+			"path": "pages/rankList/rankList",
+			"style": {
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"bounce": "none"
+					// "titleNView": false
+					// "titleNView": {
+					// 	"type":"transparent",
+					// 	"buttons": [{
+					// 		"type": "share",
+					// 		// "fontSrc": "/static/yticon.ttf",
+					// 		// "text": "\ue60f",
+					// 		"fontSize": "24",
+					// 		"color": "#fff",
+					// 		"width":"45px",
+					// 		"background": "rgba(0,0,0,0)",
+					// 		"float": "right"
+					// 		// "select": "true"
+					// 	}]
+					// }
+				},
+				"navigationBarTitleText": "排行榜"
+			}
+		}, {
+			"path": "pages/sharePage/sharePage",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				},
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/missonTeamListMy/missonTeamListMy",
+			"style": {
+				"bounce": "none",
+				// 			"app-plus": {
+				// 				"titleNView": {
+				// 					"buttons": [{
+				// 
+				// 						"fontSrc": "/static/font/iconfont.ttf",
+				// 						"text": "\ue7ae",
+				// 						"fontSize": "24",
+				// 						"color": "#fff",
+				// 						"width":"45px",
+				// 						"background": "rgba(0,0,0,0)",
+				// 						"float": "right"
+				// 						// "select": "true"
+				// 					}]
+				// 				}
+				// 			},
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/missonTeamList/missonTeamList",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px", //输入框圆角
+							"placeholder": "请输入搜索内容"
+						},
+						"buttons": [{
+							"fontSrc": "/static/font/iconfont.ttf",
+							"text": "\ueb8f",
+							"fontSize": "24",
+							"color": "red",
+							"width": "45px",
+							"background": "rgba(0,0,0,0)",
+							"float": "right"
+							// "select": "true"
+						}]
+					}
+				},
+				"navigationBarTitleText": "团队列表"
+			}
+		},
+
+		{
+			"path": "pages/petitioning/petitioning",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "事件查询"
+			}
+		}, {
+			"path": "pages/teachInfoList/teachInfoList",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "学习详情"
+			}
+		}, {
+			"path": "pages/teachInfoListNew/teachInfoListNew",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				},
+				"navigationBarTitleText": "学习详情"
+			}
+		}, {
+			"path": "pages/teamUserList/teamUserList",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "成员列表"
+			}
+		}, {
+			"path": "pages/teachListWD/teachListWD",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px", //输入框圆角
+							"placeholder": "请输入搜索内容"
+						}
+					}
+				},
+				"navigationBarTitleText": "问题列表"
+			}
+		}, {
+			"path": "pages/teachListXX/teachListXX",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px", //输入框圆角
+							"placeholder": "请输入搜索内容"
+						}
+					}
+				},
+				"navigationBarTitleText": "学习列表"
+			}
+		}, {
+			"path": "pages/teachInfoSuccess/teachInfoSuccess",
+			"style": {
+				"navigationStyle": "custom",
+
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/teachInfoListXX/teachInfoListXX",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "学习详情"
+			}
+		}, {
+			"path": "pages/bannerInfo/bannerInfo",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		}, {
+			"path": "pages/webView/webView",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		}, {
+			"path": "pages/teamMissonDetailBegin/teamMissonDetailBegin",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队任务详情"
+			}
+		}, {
+			"path": "pages/authentication/authentication",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "实名注册"
+			}
+		}, {
+			"path": "pages/teamDetail/teamDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队成员列表"
+			}
+		}, {
+			"path": "pages/teamDetailMy/teamDetailMy",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队成员列表"
+			}
+		}, {
+			"path": "pages/teamDetailNew/teamDetailNew",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "新增团队"
+			}
+		}, {
+			"path": "pages/teamDetailSQ/teamDetailSQ",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队申请列表"
+			}
+		}, {
+			"path": "pages/petitioningDetail/petitioningDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "上访事件详情"
+			}
+		}, {
+			"path": "pages/erweima/erweima",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "付款码"
+			}
+		}, {
+			"path": "pages/teamDetailPeople/teamDetailPeople",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队成员"
+			}
+		}, {
+			"path": "pages/teamDetailMa/teamDetailMa",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队二维码"
+			}
+		}, {
+			"path": "pages/teamDetailName/teamDetailName",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "编辑团队名称"
+			}
+		}, {
+			"path": "pages/qiandao/qiandao",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "签到"
+			}
+		}, {
+			"path": "pages/missonTeamWaiting/missonTeamWaiting",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "团队审核"
+			}
+		},
+		{
+			"path": "pages/fankui/fankui",
+			"style": {
+				"navigationBarTitleText": "我的金点子",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						// "buttons": [{
+						// 	"width": "45px",
+						// 	"text": "新增",
+						// 	"fontSize": "16",
+						// 	"color": "#fff",
+						// 	"background": "rgba(0,0,0,0)",
+						// 	"redDot": false
+						// }]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/fankuiAll/fankuiAll",
+			"style": {
+				"navigationBarTitleText": "金点子",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/fankuiDetail/fankuiDetail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "金点子详情"
+			}
+		}, {
+			"path": "pages/fankuiAdd/fankuiAdd",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "新增金点子"
+			}
+		}, {
+			"path": "pages/backCloth/backCloth",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "归还巡防服"
+			}
+		}, {
+			"path": "pages/changeForm/changeForm",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/changeFormUser/changeFormUser",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "pages/myinfo/myinfo",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "我的资料"
+			}
+		}, {
+			"path": "pages/abnormal/abnormal",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "提交申请"
+			}
+		}, {
+			"path": "pages/datiguize/datiguize",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "答题规则"
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "记录"
+			}
+		}, {
+			"path": "pages/huizhang/huizhang",
+			"style": {
+				"navigationBarTitleText": "我的徽章",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"width": "30px",
+							"fontSrc": "/static/font/iconfont.ttf",
+							"text": "\ue6d7",
+							"fontSize": "20",
+							"color": "#8a2c1d",
+							"background": "rgba(0,0,0,0)",
+							"redDot": false
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/huizhangInfo/huizhangInfo",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "徽章说明"
+			}
+		}, {
+			"path": "pages/rongyu/rongyu",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "荣誉值说明"
+			}
+		}, {
+			"path": "pages/locationSetting/locationSetting",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "定位设置"
+			}
+		}, {
+			"path": "pages/huodong/huodong",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				// "app-plus": {
+				// 	"bounce":"none",
+				// 	"titleNView": {
+				// 		// "type":"transparent",
+				// 		"buttons": [{
+				// 			"type": "share",
+				// 			// "fontSrc": "/static/yticon.ttf",
+				// 			// "text": "\ue60f",
+				// 			"fontSize": "24",
+				// 			"color": "#fff",
+				// 			"width":"45px",
+				// 			"background": "rgba(0,0,0,0)",
+				// 			"float": "right"
+				// 			// "select": "true"
+				// 		}]
+				// 	}
+				// },
+				"navigationBarTitleText": "关于平安联盟"
+			}
+		},
+		{
+			"path": "pages/roadblock/roadblock",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"width": "45px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue792",
+								"fontSize": "24",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"float": "right"
+							},
+							{
+								"width": "30px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue6d7",
+								"fontSize": "20",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"redDot": false
+							}
+						],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"fontSize": "20px",
+							"borderRadius": "6px", //输入框圆角
+							"placeholder": "请输入搜索内容"
+						}
+					}
+				},
+				"navigationBarTitleText": "卡口任务"
+			}
+		},
+
+		{
+			"path": "pages/roadLockMissonDetail/roadLockMissonDetail",
+			"style": {
+				"app-plus": {
+					"subNVues": [{
+						"id": "popup", // 唯一标识  
+						"path": "pages/roadLockMissonDetail/subNVue/popup", // 页面路径  
+						// "type":"popup",
+						"style": {
+							"position": "absolute",
+							"dock": "bottom",
+							"width": "100%",
+							"height": "100%",
+							"background": "rgba(0,0,0,0.5)"
+						}
+					}, { //弹出层
+						"id": "innerBox",
+						"path": "pages/roadLockMissonDetail/subNVue/innerBox",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "200px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}, { //弹出层
+						"id": "lingquBox",
+						"path": "pages/roadLockMissonDetail/subNVue/lingquBox",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "200px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}],
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/roadLockMissonDetailBegin/roadLockMissonDetailBegin",
+			"style": {
+				"app-plus": {
+					"subNVues": [{
+						"id": "popupBegin", // 唯一标识  
+						"path": "pages/roadLockMissonDetailBegin/subNVue/popupBegin", // 页面路径  
+						// "type":"popup",
+						"style": {
+							"position": "absolute",
+							"dock": "bottom",
+							"width": "100%",
+							"height": "100%",
+							"background": "rgba(0,0,0,0.5)"
+						}
+					}, { //弹出层
+						"id": "innerBoxBegin",
+						"path": "pages/roadLockMissonDetailBegin/subNVue/innerBoxBegin",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "200px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}, { //弹出层
+						"id": "abandonBoxBegin",
+						"path": "pages/roadLockMissonDetailBegin/subNVue/abandonBoxBegin",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "150px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}, { //弹出层
+						"id": "completeBoxBegin",
+						"path": "pages/roadLockMissonDetailBegin/subNVue/completeBoxBegin",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "150px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}],
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/roadLock_success_lingqu/roadLock_success_lingqu",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": "false"
+					}
+				},
+				"navigationBarTitleText": "完成"
+			}
+		},
+		{
+			"path": "pages/roadLock_success/roadLock_success",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": "false"
+					}
+				},
+				"navigationBarTitleText": "完成"
+			}
+		},
+		{
+			"path": "pages/roadblockguize/roadblockguize",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "说明"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge_map/_new_weiwangge_map",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "微网格"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge/_new_weiwangge",
+			"style": {
+				"app-plus": {
+					"subNVues": [{
+						"id": "popupShangbao", // 唯一标识  
+						"path": "pages/_new_weiwangge/subNVue/popupShangbao", // 页面路径  
+						// "type":"popup",
+						"style": {
+							"position": "absolute",
+							"dock": "bottom",
+							"width": "100%",
+							"height": "100%",
+							"background": "rgba(0,0,0,0.5)"
+						}
+					}, { //弹出层
+						"id": "innerBoxShangbao",
+						"path": "pages/_new_weiwangge/subNVue/innerBoxShangbao",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "160px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}],
+					"titleNView": {
+						"buttons": [{
+							"width": "45px",
+							"fontSrc": "/static/font/iconfont.ttf",
+							"text": "\ue613",
+							"fontSize": "24",
+							"color": "#7a7e83",
+							"width": "46px",
+							"background": "rgba(0,0,0,0)",
+							"float": "right"
+						}]
+					},
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "微网格"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge_detail/_new_weiwangge_detail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge_detail_grid/_new_weiwangge_detail_grid",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge_more/_new_weiwangge_more",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+					"searchInput": {
+						"backgroundColor": "#fff",
+						"fontSize": "20px",
+						"borderRadius": "6px", //输入框圆角
+						"placeholder": "请输入搜索内容"
+					}
+					},
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "更多微网格"
+			}
+		},
+		{
+			"path": "pages/_new_weiwangge_xuanchuan/_new_weiwangge_xuanchuan",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/_new_guanzhuweiwangge/_new_guanzhuweiwangge",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+					"searchInput": {
+						"backgroundColor": "#fff",
+						"fontSize": "20px",
+						"borderRadius": "6px", //输入框圆角
+						"placeholder": "请输入搜索内容"
+					}
+					},
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "已关注的微网格"
+			}
+		},
+		{
+			"path": "pages/_new_guanzhuweiwangge_detail/_new_guanzhuweiwangge_detail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/_new_guanzhuweiwangge_detail-people/_new_guanzhuweiwangge_detail-people",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/_new_tousu/_new_tousu",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "投诉"
+			}
+		},
+		{
+			"path": "pages/_new_wodetousu/_new_wodetousu",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "我的投诉"
+			}
+		},
+		{
+			"path": "pages/_new_wodetousu_detail/_new_wodetousu_detail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "投诉详情"
+			}
+		},
+		{
+			"path": "pages/_new_xinxishangbao/_new_xinxishangbao",
+			"style": {
+				"app-plus": {
+					// "subNVues": [{
+					// 	"id": "popupShangbao", // 唯一标识  
+					// 	"path": "pages/_new_xinxishangbao/subNVue/popupShangbao", // 页面路径  
+					// 	// "type":"popup",
+					// 	"style": {
+					// 		"position": "absolute",
+					// 		"dock": "bottom",
+					// 		"width": "100%",
+					// 		"height": "100%",
+					// 		"background": "rgba(0,0,0,0.5)"
+					// 	}
+					// }, { //弹出层
+					// 	"id": "innerBoxShangbao",
+					// 	"path": "pages/_new_xinxishangbao/subNVue/innerBoxShangbao",
+					// 	"style": {
+					// 		"position": "popup",
+					// 		"margin": "auto",						
+					// 		"width": "300px",
+					// 		"height": "160px"
+					// 		// "background": "rgba(0,0,0,0)"
+					// 	}
+					// }],
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "信息上报"
+			}
+		}
+		,{
+			"path": "pages/_new_xinxishangbao_detail/_new_xinxishangbao_detail",
+			"style": {
+				"app-plus": {
+					"subNVues": [{
+						"id": "tipsPopup_de", // 唯一标识  
+						"path": "pages/_new_xinxishangbao_detail/subNVue/tipsPopup_de", // 页面路径  
+						// "type":"popup",
+						"style": {
+							"position": "absolute",
+							"dock": "bottom",
+							"width": "100%",
+							"height": "100%",
+							"background": "rgba(0,0,0,0.5)"
+						}
+					}, { //弹出层
+						"id": "tips_de",
+						"path": "pages/_new_xinxishangbao_detail/subNVue/tips_de",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "160px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}, { //弹出层
+						"id": "success_de",
+						"path": "pages/_new_xinxishangbao_detail/subNVue/success_de",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "160px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}],
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "详情"
+			}
+		}
+		,{
+			"path": "pages/_new_xinxishangbao_add/_new_xinxishangbao_add",
+			"style": {
+				"app-plus": {
+					"subNVues": [{
+						"id": "tipsPopup", // 唯一标识  
+						"path": "pages/_new_xinxishangbao_add/subNVue/tipsPopup", // 页面路径  
+						// "type":"popup",
+						"style": {
+							"position": "absolute",
+							"dock": "bottom",
+							"width": "100%",
+							"height": "100%",
+							"background": "rgba(0,0,0,0.5)"
+						}
+					}, { //弹出层
+						"id": "tips",
+						"path": "pages/_new_xinxishangbao_add/subNVue/tips",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "160px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}, { //弹出层
+						"id": "success",
+						"path": "pages/_new_xinxishangbao_add/subNVue/success",
+						"style": {
+							"position": "popup",
+							"margin": "auto",						
+							"width": "300px",
+							"height": "160px"
+							// "background": "rgba(0,0,0,0)"
+						}
+					}],
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "信息填写"
+			}
+		}
+
+	    ,{
+            "path" : "pages/_new_sharePage/_new_sharePage",
+            "style" : {
+				"navigationBarTitleText": "分享"
+			}
+        }
+        ,{
+            "path" : "pages/_new_xinxishangbao_detail_list/_new_xinxishangbao_detail_list",
+            "style" : {
+				"navigationBarTitleText": "微上报列表"
+			}
+        }
+        ,{
+            "path" : "pages/nvue_demo/nvue_demo",
+            "style" : {
+				"navigationBarTitleText": "微上报列表"
+			}
+        }
+        ,{
+            "path" : "pages/_new_systemDetail/_new_systemDetail",
+            "style" : {
+				"navigationBarTitleText": "系统消息"
+			}
+        },{
+            "path" : "pages/teacherWelcome/teacherWelcome",
+            "style" : {
+				"navigationBarTitleText": "挑战答题"
+			}
+        }
+		
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#e32417",
+		"backgroundColor": "#ffffff",
+		"fontSize": "14px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/1.png",
+				"selectedIconPath": "static/icon/_1.png"
+			},
+			// {
+			// 	"pagePath": "pages/mall/mall",
+			// 	"text": "平安商城",
+			// 	"iconPath": "static/img/icon_Mall_default@2x.png",
+			// 	"selectedIconPath": "static/img/icon_Mall@2x.png"
+			// },
+			{
+				"pagePath": "pages/_new_myScreening/_new_myScreening",
+				"text": "我的排查",
+				"iconPath": "static/icon/2.png",
+				"selectedIconPath": "static/icon/_2.png"
+			}, {
+				"pagePath": "pages/myMisson/myMisson",
+				"text": "我的巡防",
+				"iconPath": "static/icon/3.png",
+				"selectedIconPath": "static/icon/_3.png"
+			}, {
+				"pagePath": "pages/user/user",
+				"text": "个人中心",
+				"iconPath": "static/icon/4.png",
+				"selectedIconPath": "static/icon/_4.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fbf9fe"
+		// "transparentTitle":"auto"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}	
+}

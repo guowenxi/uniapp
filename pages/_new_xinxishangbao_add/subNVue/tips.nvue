@@ -1,0 +1,130 @@
+<template>
+	<view class="inner-box">
+		<view class="inner-box-title">
+			<text class="inner-box-title-text">
+				提示
+			</text>
+			<image @click="cancel" class="inner-box-icon" src="..//static/new/btn_close@2x.png"/>
+		</view>
+		<view class="inner-box-mian">
+			<view class="inner-box-main-item">
+				<text class="inner-box-main-item-text">是否完成?</text>
+			</view>
+			<view class="inner-box-mian-btnBox">
+				<view class="btnBox-left-btn" @click="cancel">
+					<text class="btnBox-left-btn-text">取消</text>
+				</view>
+				<view class="btnBox-right-btn" @click="handleClick">
+					<text class="btnBox-left-btn-text">确定</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title:"",
+				time:"",
+			};
+		},
+		onLoad(){  
+
+
+		}, 
+	   methods: {
+	   cancel(){
+		   uni.getSubNVueById('tipsPopup').hide('auto',0);
+		   uni.getSubNVueById('tips').hide('auto',0);
+	   },
+		 handleClick(e, id) {
+
+			 uni.getSubNVueById('tipsPopup').hide('auto',0);
+			 uni.getSubNVueById('tips').hide('auto',0);
+			uni.$emit('_new_xinxishangbao_add', {
+				type:"complete"
+			});
+		 },
+		 }
+	}
+</script>
+
+<style lang="scss">
+.inner-box{
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	border-radius: 10px;
+	
+}
+.inner-box-title{
+	background-color: #efefef;
+	width:300px;
+	flex-direction:row;
+	 justify-content:space-between;
+	 border-bottom-color:#EEEEEE;
+	 border-bottom-width:1px;
+}
+.inner-box-title-text{
+	line-height: 30upx;
+}
+
+.inner-box-icon{
+	margin-top: 15upx;
+	margin-right:10px;
+	width:60upx;
+	height:60upx;
+}
+.inner-box-main-item{
+	width:300px;
+	flex-direction:row;
+}
+.inner-box-mian-btnBox{
+	 flex-direction:row;
+	justify-content:center;
+	
+	width:300px;
+	margin-top: 30px;
+	
+}
+.btnBox-left-btn{
+	margin:0 10px;
+	width:130px;
+	height:70upx;
+	background-color: #E32417;
+	color:#FFFFFF;
+	text-align: center;
+	border-radius:10upx;
+	
+}
+.btnBox-right-btn{
+	margin:0 10px;
+	width:130px;
+	height:70upx;
+	background-color: #E32417;
+	color:#FFFFFF;
+	text-align: center;
+	border-radius:10upx;
+}
+.btnBox-left-btn-text{
+	line-height:70upx;
+	color:#FFFFFF;
+	text-align: center;
+		border-radius:10upx;
+}
+.inner-box-main-item-text{
+	margin-top: 10px;
+	margin-left: 20px;
+	line-height: 40upx;
+}
+.inner-box-main-item-text-red{
+	margin-top: 10px;
+
+	line-height: 40upx;
+	color:#E32417;
+}
+</style>

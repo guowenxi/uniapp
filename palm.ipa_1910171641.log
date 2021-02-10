@@ -1,0 +1,73 @@
+[2019-10-17 16:41:20 CST] <Thread-10>  INFO: Logging to file: F:\_app\pingan\palm.ipa_1910171641.log
+[2019-10-17 16:41:20 CST] <Thread-10>  INFO: Logging configured successfully.
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: iTMSTransporter : iTunes Store Transporter [1.9.8]
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: OS identifier: Windows 8.1 6.3 (amd64); jvm=25.171-b11; jre=1.8.0_171-b11
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Memory: [JVM] 51M free, 103M total, 1801M max [System] (Physical) 1534M free, 8099M total (Swap) 7468M free, 15267M total
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Upload mode selected.
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Examining the package at: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Ensuring that package has well formed metadata file...
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Gathering the list of valid files from the package ...
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Finished gathering the list of valid files from the package.
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Verify progress: Analyzing metadata (Step 0/?)
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Performing authentication of package 1483420894.itmsp ...
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: Verify progress: Analyzing metadata (Step 1/2)
+[2019-10-17 16:41:21 CST] <Thread-10>  INFO: id = 20191017164121-697
+[2019-10-17 16:41:25 CST] <Thread-10>  INFO: id = 20191017164125-768
+[2019-10-17 16:41:26 CST] <Thread-10>  INFO: The list of files requested for upload by Apple is: [metadata.xml, 1483420894.ipa].  These are the files that will be uploaded.
+[2019-10-17 16:41:26 CST] <Thread-10>  INFO: Starting media analysis of assets
+[2019-10-17 16:41:27 CST] <Thread-10>  INFO: Verify progress: Adding asset to analyze: 1483420894.ipa (Step 2/3)
+[2019-10-17 16:41:27 CST] <Thread-10>  INFO: Asset media analysis has completed
+[2019-10-17 16:41:27 CST] <Thread-10>  INFO: id = 20191017164127-431
+[2019-10-17 16:41:29 CST] <Thread-10>  INFO: Verify progress: Validating assets (Step 3/3)
+[2019-10-17 16:41:29 CST] <Thread-10>  INFO: Verify progress: Validating assets (Step 4/3)
+[2019-10-17 16:41:29 CST] <Thread-10>  INFO: id = 20191017164129-520
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: The list of files requested for upload by Apple is: [metadata.xml, 1483420894.ipa].  These are the files that will be uploaded.
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: Done performing authentication.
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: The asset replacement verification check is disabled.
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: Checking the file size of the files: [1483420894.ipa]
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: Done checking the file sizes.
+[2019-10-17 16:41:30 CST] <Thread-10>  INFO: Checking the md5 checksum of the files: [1483420894.ipa]
+[2019-10-17 16:41:31 CST] <Thread-10>  INFO: Done checking the md5 checksum.
+[2019-10-17 16:41:31 CST] <Thread-10>  INFO: Preparing to upload package 1483420894.itmsp ...
+[2019-10-17 16:41:31 CST] <Thread-10>  INFO: Starting to upload the package's files (1483420894.itmsp) ...
+[2019-10-17 16:41:31 CST] <Thread-10>  INFO: Attempting to connect to Apple's webDAV...
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Successfully connected to Apple's webDAV.
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Attempting to create the package's folder on Apple's webDAV: /5/K2G85K425X/uploading/1483420894-20191017014130-145.itmsp/
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Successfully created/set the package's folder on Apple's webDAV.
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Determining which files should be uploaded ...
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Finished determining which files should be uploaded.
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Computing total size of files to upload ...
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Done computing total size of files to upload.
+[2019-10-17 16:41:32 CST] <Thread-10>  INFO: Starting upload of file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\1483420894.ipa ...
+[2019-10-17 16:42:15 CST] <Thread-10>  INFO:      File: 1483420894.ipa 10485760/39284541, 26% completed
+[2019-10-17 16:43:04 CST] <Thread-10>  INFO:      File: 1483420894.ipa 20971520/39284541, 53% completed
+[2019-10-17 16:43:42 CST] <Thread-10>  INFO:      File: 1483420894.ipa 31457280/39284541, 80% completed
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO:      File: 1483420894.ipa 39284541/39284541, 100% completed
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO:   Successfully uploaded file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\1483420894.ipa
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO: Package upload progress: 99% completed
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO: Finished upload of file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\1483420894.ipa.
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO: Starting upload of file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\metadata.xml ...
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO:      File: metadata.xml 524/524, 100% completed
+[2019-10-17 16:44:12 CST] <Thread-10>  INFO:   Successfully uploaded file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\metadata.xml
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Package upload progress: 100% completed
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Finished upload of file: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp\metadata.xml.
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Gathering list of uploaded files from Apple's webDAV...
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Done gathering list of uploaded files from Apple's webDAV...
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Checking if any encryption/compression files are outdated locally ...
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Finished checking if any encryption/compression files are outdated locally.
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Confirming that the previously uploaded files were uploaded correctly ...
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Finished confirming that the previously uploaded files were uploaded correctly.
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Determining which files were not uploaded ...
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Finished determining which files were not uploaded.
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: Done performing upload.
+[2019-10-17 16:44:13 CST] <Thread-10>  INFO: id = 20191017164413-860
+[2019-10-17 16:44:15 CST] <Thread-10>  INFO: Done performing uploadDone notification to Apple.
+[2019-10-17 16:44:15 CST] <Thread-10>  INFO: The package: C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp has been successfully uploaded.
+[2019-10-17 16:44:15 CST] <Thread-10>  INFO: Verify progress: Operation completed (Step 3/3)
+
+
+
+Package Summary:
+ 
+1 packages were uploaded successfully:
+	C:\Users\guowenxi\AppData\Local\Temp\au\itmsp\1483420894.itmsp

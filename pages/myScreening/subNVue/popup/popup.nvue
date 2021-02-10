@@ -1,0 +1,36 @@
+<template>
+	<view class="content">
+		<view class="bg-item">
+			
+		</view>
+		1231231231231
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		created(){
+			debugger
+		}
+	}
+</script>
+
+<style lang="scss">
+.content{
+	.bg-item{
+		width: 375wx;
+		height:667wx;
+		background-color: rgba(0,0,0,0.5);
+	}
+	top:70wx;
+	background-color: #eee;
+	color:red;
+	width: 375wx;
+	
+}
+</style>

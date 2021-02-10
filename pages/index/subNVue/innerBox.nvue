@@ -1,0 +1,96 @@
+<template>
+	<view class="inner-box">
+		<view class="inner-box-title">
+			<text class="inner-box-title-text">
+				提示
+			</text>
+			<image @click="handleClick" class="inner-box-icon" src="..//static/new/btn_close@2x.png"/>
+		</view>
+		<view class="inner-box-mian">
+			<view class="inner-box-main-item">
+				<text class="inner-box-main-item-text">很抱歉,您的防疫志愿服务任务:</text>
+			</view>
+			<view class="inner-box-main-item">
+				<text class="inner-box-main-item-text">名称:</text>
+				<text class="inner-box-main-item-text-red">{{title}}</text>
+			</view>
+			<view class="inner-box-main-item">
+				<text class="inner-box-main-item-text">日期:</text>
+				<text class="inner-box-main-item-text-red">{{time}}</text>
+			</view>
+			<view class="inner-box-main-item">
+				<text class="inner-box-main-item-text">已被管理员取消,请选择其他业务。</text>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title:"",
+				time:"",
+			};
+		},
+		onLoad(){  
+		    // 监听事件  
+		    uni.$on('innerBox',(info)=>{  
+				console.log("接收啦")
+				this.title=info.title;
+				this.time=info.time;
+		    })  
+		}, 
+	   methods: {
+		 handleClick(e, id) {
+			 uni.getSubNVueById('popup').hide('auto',0);
+			 uni.getSubNVueById('innerBox').hide('auto',0);
+		 },
+		 }
+	}
+</script>
+
+<style lang="scss">
+.inner-box{
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	border-radius: 10px;
+	
+}
+.inner-box-title{
+	background-color: #efefef;
+	width:300px;
+	flex-direction:row;
+	 justify-content:space-between;
+	 border-bottom-color:#EEEEEE;
+	 border-bottom-width:1px;
+}
+.inner-box-title-text{
+	line-height: 30upx;
+}
+
+.inner-box-icon{
+	margin-top: 15upx;
+	margin-right:10px;
+	width:60upx;
+	height:60upx;
+}
+.inner-box-main-item{
+	width:300px;
+	flex-direction:row;
+}
+.inner-box-main-item-text{
+	margin-top: 10px;
+	margin-left: 20px;
+	line-height: 40upx;
+}
+.inner-box-main-item-text-red{
+	margin-top: 10px;
+
+	line-height: 40upx;
+	color:#E32417;
+}
+</style>
